@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="form.css" />
+	<title>FORMULARZ</title>
+    <style>
+    
+    fieldset {
+        width: 15cm;
+    }   
+
+    .regulamin{
+        width:15cm;
+    }
+    
+    </style>
+</head>
+<body>
+<form action="wyslij.html" method="post">
+        <fieldset>
+        <legend> Dane kontaktowe </legend>
+        <label>
+        Podaj swoje imię: 
+            <input type="text" placeholder="Imię" autofocus="autofocus">
+            </label>
+        <br><br>
+            <label>
+        Podaj swoje nazwisko: 
+            <input type="text" placeholder="Nazwisko"> 
+            </label>
+         <br><br>
+         <label>
+        Podaj swój e-mail: 
+            <input type="email" placeholder="abcde@123.pl">
+            </label>
+        <br><br>
+         <label>
+        Podaj swój wiek: 
+            <input type="number" placeholder="17+" min="17" max="119" step="1">
+            </label>
+        <br><br>
+        <fieldset class="regulamin">
+         <legend> Przeczytałem regulamin strony </legend>
+            <p>
+        <input type="checkbox" required="required">
+        Tak
+        </p>
+        </fieldset>
+            <input type="submit" value="wyślij">
+            <input type="reset" value="resetuj">
+         </fieldset>
+        </form>
+        <br><br>
+        <h2><a href="../index.html">Powrót do menu :D</a></h2>
+</body>
+</html>
