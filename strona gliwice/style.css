@@ -60,30 +60,27 @@ div:hover{
 	transform: scale(1.1);
 }
 
-p.linkor{
-	position: absolute;
-	top:85%;
-	left:45%;
-	font-size: 30px;
-
+p.linkor {
+  position: relative;
+  top: 45%;
+  right: 41%;
+  font-size: 30px;
 }
 
-p.linkor a{
-		text-decoration: none;
-		color:white;
-			font-style:bold;
+p.linkor a {
+  text-decoration: none;
+  color: white;
+  font-style: bold;
 }
 
-p.tabka{
-	position: absolute;
-	top:90%;
-	left:47%;
-	font-size: 30px;
-
+p.tabka {
+  position: relative;
+  top: 39%;
+  font-size: 30px;
 }
 
-p.tabka a{
-	text-decoration: none;
-	color:white;
-	font-style:bold;
+p.tabka a {
+  text-decoration: none;
+  color: white;
+  font-style: bold;
 }
