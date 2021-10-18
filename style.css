@@ -1,0 +1,86 @@
+body{
+	 background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(tlo.jpg);
+	 height: 97vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+	text-align: center;
+	font-size: 50px;
+	color:white;
+	font-style: bold;
+}
+
+div{
+	width:300px;
+	height:300px;
+	text-align: center;
+	position:relative;
+	left:17%;
+	transition: all .2s ease-in-out;
+}
+
+div.sosnica{
+	background-color: #a7e28e ;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+div.zwyciestwa{
+	background-color: #febd91;
+	margin-bottom:20px;
+	margin-right:20px;
+	float:left;
+}
+
+div.kosciol{
+	background-color: #a1c4d0  ;
+	margin-right:20px;
+	float:left;
+}
+
+div.park{
+	background-color: #ffb2b2 ;
+	float:left;
+}
+
+p.menu{
+	position:relative;
+	top:30%; left:50%;
+	transform: translate(-50%,-50%);
+	font-size: 50px;
+	color:black;
+	text-decoration: none;
+	font-style:italic;
+}
+
+div:hover{
+	transform: scale(1.1);
+}
+
+p.linkor {
+  position: relative;
+  top: 45%;
+  right: 41%;
+  font-size: 30px;
+}
+
+p.linkor a {
+  text-decoration: none;
+  color: white;
+  font-style: bold;
+}
+
+p.tabka {
+  position: relative;
+  top: 39%;
+  font-size: 30px;
+}
+
+p.tabka a {
+  text-decoration: none;
+  color: white;
+  font-style: bold;
+}
